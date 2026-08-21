@@ -1,0 +1,12 @@
+{
+  "name": "pipeline-playground",
+  "version": "0.1.0",
+  "description": "A tiny inventory CLI used as the target of the Runtype Delivery Pipeline example.",
+  "type": "commonjs",
+  "bin": { "inv": "bin/inv.js" },
+  "scripts": {
+    "test": "node --test tests/",
+    "lint": "node scripts/lint.js"
+  },
+  "license": "MIT"
+}
