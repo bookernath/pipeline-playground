@@ -5,7 +5,7 @@
   "type": "commonjs",
   "bin": { "inv": "bin/inv.js" },
   "scripts": {
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.js",
     "lint": "node scripts/lint.js"
   },
   "license": "MIT"
